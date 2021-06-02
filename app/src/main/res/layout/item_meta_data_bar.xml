@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/glItemMetaData"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:columnCount="7"
+    android:orientation="horizontal"
+    app:layout_constraintHorizontal_weight="0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/cmpRating">
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_columnWeight="1"
+        android:gravity="center"
+        >
+        <com.deseretbook.uicomponents.CmpItemMetaDataDownload
+            android:id="@+id/cmpItemMetaDataDownload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider1"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="?attr/colorSecondary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_columnWeight="1"
+        android:gravity="center_horizontal"
+        >
+        <com.deseretbook.uicomponents.CmpItemMetaDataTwoLineText
+            android:id="@+id/cmpTwoLineText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </com.deseretbook.uicomponents.CmpItemMetaDataTwoLineText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:gravity="end">
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="?attr/colorSecondary"
+            android:layout_gravity="end"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_columnWeight="1"
+        android:gravity="center"
+        >
+        <com.deseretbook.uicomponents.CmpItemMetaDataTwoLineText
+            android:id="@+id/cmpTwoLineText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:gravity="end">
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="?attr/colorSecondary"
+            android:layout_gravity="end"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_columnWeight="1"
+        android:gravity="center"
+        >
+        <com.deseretbook.uicomponents.CmpRatingSquare
+            android:layout_width="75dp"
+            android:layout_height="45dp"
+            android:id="@+id/cmpRatingSquare"
+            >
+        </com.deseretbook.uicomponents.CmpRatingSquare>
+    </LinearLayout>
+</GridLayout>

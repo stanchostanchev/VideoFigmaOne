@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/ic_video_rating_fill_2.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_black_star.xml" value="0.1265625" />
+        <entry key="app/src/main/res/drawable/ic_rating_box_border.xml" value="0.12777777777777777" />
+        <entry key="app/src/main/res/drawable/ic_vf_divider.xml" value="0.1265625" />
+        <entry key="app/src/main/res/drawable/ic_vf_download.xml" value="0.14722222222222223" />
+        <entry key="app/src/main/res/drawable/ic_video_rating_fill.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_video_rating_track.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/rating_bar.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/vf_experiment.xml" value="0.1265625" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/item_meta_data_bar.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/item_meta_download.xml" value="0.75" />
+        <entry key="app/src/main/res/layout/item_meta_runtime.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/item_meta_two_line_text.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/rating_bar.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/rating_bar_with_rate.xml" value="0.625" />
+        <entry key="app/src/main/res/layout/rating_bars_stack.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/rating_component.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/rating_item_meta_data_bar.xml" value="0.14947916666666666" />
+        <entry key="app/src/main/res/layout/rating_sqaure.xml" value="0.55" />
+        <entry key="app/src/main/res/layout/review_recycler_item.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/season_recycler_item.xml" value="0.335" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

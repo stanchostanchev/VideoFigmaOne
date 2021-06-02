@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/clItemMetaDataDownload"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#393535"
+    android:backgroundTint="#393535">
+
+
+    <TextView
+        android:id="@+id/tvSeasonItemDelimiterReviewDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:text="."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/tvReviewItemUsername"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/imvStar5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@id/imvStar4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_black_star"
+        tools:srcCompat="@drawable/ic_vf_review_black_star" />
+
+    <ImageView
+        android:id="@+id/imvStar4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@id/imvStar3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_black_star"
+        tools:srcCompat="@drawable/ic_vf_review_black_star" />
+
+    <ImageView
+        android:id="@+id/imvStar3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@id/imvStar2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_vf_review_white_star"
+        tools:srcCompat="@drawable/ic_vf_review_white_star" />
+
+    <ImageView
+        android:id="@+id/imvStar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@id/imvStar1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_vf_review_white_star"
+        tools:srcCompat="@drawable/ic_vf_review_white_star" />
+
+    <ImageView
+        android:id="@+id/imvStar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_vf_review_white_star"
+        tools:srcCompat="@drawable/ic_vf_review_white_star" />
+
+    <TextView
+        android:id="@+id/tvReviewItemDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Jan 9 2021"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/tvReviewItemUsername"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/tvReviewItemVerified"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Verified Purchaser"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/tvSeasonItemDelimiter"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/tvSeasonItemDelimiter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:text="."
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/tvReviewItemDate"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="8dp"
+        android:text="PERFECT BEGINNING and END TO EACH DAY ON REVIEWING THE APPLICATION WITH ALL MY KNOWLEDGE ABOU IT"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imvStar5" />
+
+    <TextView
+        android:id="@+id/tvReviewItemUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Megan"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/tvReviewItemReview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="8dp"
+        android:text="My beautiful daughter in law gave me this at Christmas. I have it sitting by my bedside with my journal edition of Gene..."
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvReviewItemDate" />
+
+    <TextView
+        android:id="@+id/tvReviewItemSeeAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="See all"
+        android:textColor="?android:attr/textColorLink"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvReviewItemReview" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="6dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvReviewItemSeeAll"
+        app:srcCompat="@drawable/ic_vf_thumbs_up" />
+
+    <TextView
+        android:id="@+id/tvReviewItemPeopleFoundUseful"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="2 people found this helpful"
+        android:textColor="?android:attr/textColorPrimaryInverse"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/tvReviewItemSeeAll" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#393535"
+    android:rotation="0"
+    tools:context="com.uicomponents.dev.MainActivity">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <com.deseretbook.uicomponents.CmpRating
+        android:id="@+id/cmpRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </com.deseretbook.uicomponents.CmpRating>
+
+
+    <com.deseretbook.uicomponents.CmpItemMetaDataBar
+        android:id="@+id/cmpItemMetaDataBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cmpRating" />
+
+
+        <com.deseretbook.uicomponents.CmpSeasonItem
+            android:id="@+id/cmpSeasonItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="33dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cmpItemMetaDataBar">
+
+        </com.deseretbook.uicomponents.CmpSeasonItem>
+
+    <com.deseretbook.uicomponents.CmpReviewItem
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+
+        android:layout_marginTop="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cmpSeasonItem" />
+
+    </LinearLayout>
+</ScrollView>
+
+    <!--    <GridLayout-->
+<!--        android:id="@+id/clItemMetaData"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="87dp"-->
+<!--        android:columnCount="4"-->
+<!--        android:orientation="horizontal"-->
+<!--        app:layout_constraintHorizontal_weight="0"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/cmpRating">-->
+
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_columnWeight="1"-->
+<!--            android:gravity="center"-->
+<!--            >-->
+<!--            <com.deseretbook.uicomponents.CmpItemMetaDataDownload-->
+<!--                android:id="@+id/cmpItemMetaDataDownload"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content" />-->
+<!--        </LinearLayout>-->
+
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_columnWeight="1"-->
+<!--            android:gravity="center"-->
+<!--            >-->
+<!--                <com.example.videofigma.CmpItemMetaDataRuntime-->
+<!--                    android:id="@+id/cmpItemMetaDataRuntime"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content">-->
+<!--                </com.example.videofigma.CmpItemMetaDataRuntime>-->
+<!--        </LinearLayout>-->
+
+
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_columnWeight="1"-->
+<!--            android:gravity="center"-->
+<!--            >-->
+<!--                <com.example.videofigma.CmpItemMetaDataRuntime-->
+<!--                    android:id="@+id/cmpItemMetaDataRuntime2"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content" />-->
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_columnWeight="1"-->
+<!--            android:gravity="center"-->
+<!--            >-->
+
+<!--            <com.deseretbook.uicomponents.CmpRatingSquare-->
+<!--                android:layout_width="75dp"-->
+<!--                android:layout_height="45dp">-->
+
+<!--            </com.deseretbook.uicomponents.CmpRatingSquare>-->
+<!--        </LinearLayout>-->
+<!--    </GridLayout>-->
+
+
+    <!--    -->
+    <!--    <com.deseretbook.uicomponents.CmpRatingSquare-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="16dp"-->
+    <!--        android:layout_marginTop="124dp"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+    <!--    <com.deseretbook.uicomponents.CmpRatingBar-->
+    <!--        android:id="@+id/cmpRb1"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="176dp"-->
+    <!--        android:layout_marginBottom="112dp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent" />-->
+
+
+    <!--    <com.deseretbook.uicomponents.CmpRatingBarStack-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="124dp"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.925"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
